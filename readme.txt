@@ -23,3 +23,14 @@ Features:
 == Installation ==
 1. Upload the 'show-post-content-anywhere' folder to the '/wp-content/plugins' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions ==
+
+= How to use the plugin with a WordPress site? =
+Just install the plugin. Then use the shortcode [spca post='your_post_id'].
+
+= What does it work with? =
+It works with any page, post, or custom post type. It also supports Visual Composer content.
+
+= How can I show meta value instead of post content? 
+To show meta value, use field parameter like [spca field='meta_key' post_id='your_post_id'].
